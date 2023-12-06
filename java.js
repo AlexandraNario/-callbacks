@@ -65,8 +65,9 @@ function prepareIngredients(callback) {
   
   // Test the sandwich-making process
   makeSandwich();
-  //This code defines three functions: prepareIngredients, assembleSandwich, and serveSandwich. The makeSandwich function coordinates the entire process by calling these three functions in sequence using callbacks to ensure that each step is completed before moving on to the next one.
+  //This code defines three functions: prepareIngredients, assembleSandwich, and serveSandwich. 
+  //The makeSandwich function coordinates the entire process by calling these three functions in sequence using callbacks to ensure that each step is completed before moving on to the next one.
   
   //To test the code, simply call the makeSandwich function. The console will display messages at each step of the process, and finally, the message “Enjoy your sandwich!” will be displayed when the sandwich is ready to eat.
   
-  //I hope this helps! Let me know if you have any other questions.
+  
