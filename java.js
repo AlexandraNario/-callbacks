@@ -1,38 +1,11 @@
-function prepareIngredients(callback) {
-    setTimeout(() => {
-       callback("Ingredients are prepared.");
-    }, 2000); // Simulate a 2-second delay
- }
 
- function assembleSandwich(callback){
-    setTimeout(() => {
-        callback("Sandwich is assembled");
-    
-    },1500);
-
- }
- function serveSandwich(callback){
-   setTimeout(() => {
-    callback("Sandwich is served");
-
-   }, 1000);
- }
 
 // function makeSandwich() {
   //  prepareIngredients((message1) => {
  //      console.log(message1);
  //   });
  //}
- 
- function makeSandwich() {
-    prepareIngredients(() => {
-      assembleSandwich(() => {
-        serveSandwich(() => {
 
-        });
-      });
-    });
-  }
  // Test the sandwich-making process
  makeSandwich();
  function prepareIngredients(callback) {
